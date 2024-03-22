@@ -2,7 +2,7 @@ const express = require('express');
 const cores = require('cors');
 const app = express();
 
-// imports videos routes module 
+// imports customers and checkout routes module 
 const customerRoute = require('./routes/customer');
 const checkoutRoute = require('./routes/checkout');
 
