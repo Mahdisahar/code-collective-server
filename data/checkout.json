@@ -1,0 +1,21 @@
+
+[{
+	"id": 1,
+	"name": "Xavier Toledo",
+	"bottleReturns": 4,
+	"accountVoucherValue": 1,
+	  "cartItems" : {
+		"charity_pot_body_lotion" : {
+			"$ref" : "#/products/charity_pot_lotion"
+		},
+		"super_milk_conditioning_spray" : {
+			"$ref" : "#/products/super_milk_conditioning_spray"
+		}
+	  },
+	  "bottleReturnCartItems" : {
+		"twilight_body_spray_bottle" : {
+			"voucherValue" : "1/4"
+		}
+	  },
+	"completed": false
+  }]
