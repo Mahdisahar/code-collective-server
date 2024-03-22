@@ -1,0 +1,22 @@
+[
+{
+	"id": 1,
+	"name": "Xavier Toledo",
+	"QR": "some_fake_QR",
+	"email": "xavier@gmail.com",
+	"address": "555 Bubble Street, San Francisco",
+	"birthday": "October 8",
+	"creditCard": "1234-xxxx-xxxx-xxxx",
+	  "purchases" : {
+		"twilight_body_spray" : {
+			"$ref" : "#/products/twilight_body_spray"
+		},
+		"rose_jam_shower_gel" : {
+			"$ref" : "#/products/rose_jam_shower_gel"
+		}
+	  },
+	"bottleReturns": 8,
+	"redeemedVouchers": 2,
+	"accountVouchers": 1
+  }
+]

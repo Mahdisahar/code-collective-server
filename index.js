@@ -3,7 +3,7 @@ const cores = require('cors');
 const app = express();
 
 // imports videos routes module 
-// const videosRoute = require('./routes/videos');
+const customerRoute = require('./routes/customer');
 
 // loading variable from .env
 require('dotenv').config({path: './.env'});
@@ -16,7 +16,7 @@ app.use(cores());
 app.use(express.json());
 
 // Route Handling
-app.use('/videos', videosRoute);
+app.use('/customer', customerRoute);
 
 
 // The app is listening on port 8085
