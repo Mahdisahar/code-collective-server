@@ -4,6 +4,7 @@ const app = express();
 
 // imports videos routes module 
 const customerRoute = require('./routes/customer');
+const checkoutRoute = require('./routes/checkout');
 
 // loading variable from .env
 require('dotenv').config({path: './.env'});
@@ -17,6 +18,7 @@ app.use(express.json());
 
 // Route Handling
 app.use('/customer', customerRoute);
+app.use('/checkout', checkoutRoute)
 
 
 // The app is listening on port 8085
