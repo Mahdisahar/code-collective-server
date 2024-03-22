@@ -2,9 +2,9 @@
 [{
 	"id": 1,
 	"title": "Rose Jam",
-	"product name": "Shower Gel",
+	"product": "Shower Gel",
 	"volum": "250 ML",
-	"Quantity": 1,
+	"quantity": 1,
 	"price": 26,
 	"name": "Xavier Toledo",
 	"bottleReturns": 4,
@@ -27,9 +27,9 @@
   {
 	"id": 2,
 	"title": "Twilight",
-	"product name": "Body Spray",
+	"product": "Body Spray",
 	"volum": "200 ML",
-	"Quantity": 1,
+	"quantity": 1,
 	"price": 42,
 	"name": "Xavier Toledo",
 	"bottleReturns": 4,
